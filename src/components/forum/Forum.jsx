@@ -2,7 +2,7 @@ import React from "react";
 
 const Forum = () => (
   <div>
-    <h1>Forum</h1>
+    <h1>Forum </h1>
   </div>
 );
 
