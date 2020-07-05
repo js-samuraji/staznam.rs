@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react'
 
-const Archive = () => (
-  <div>
-    <h1>Archive</h1>
-  </div>
-);
+export default function Archive() {
+  return (
+    <div>
+      <h2>Archive</h2>
+    </div>
+  )
+}
 
-export default Archive;
