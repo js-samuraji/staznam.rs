@@ -17,11 +17,11 @@ const Main = () => (
     <Link to="/tools">Tools</Link>
     <Switch>
       <Route path="/" exact component={Homepage} />
-      <Route path="/archive" exact component={Archive} />
-      <Route path="/forum" exact component={Forum} />
-      <Route path="/games" exact component={Games} />
-      <Route path="/lists" exact component={Lists} />
-      <Route path="/tools" exact component={Tools} />
+      <Route path="/archive" component={Archive} />
+      <Route path="/forum" component={Forum} />
+      <Route path="/games" component={Games} />
+      <Route path="/lists" component={Lists} />
+      <Route path="/tools" component={Tools} />
     </Switch>
   </main>
 );
