@@ -5,34 +5,18 @@ import Forum from "../components/forum/Forum";
 import Games from "../components/games/Games";
 import Lists from "../components/lists/Lists";
 import Tools from "../components/tools/Tools";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import Button from "react-bootstrap/Button";
+import Homepage from "../components/homepage/Homepage";
 
 const Main = () => (
   <main>
-    <ButtonGroup aria-label="Basic example">
-      <Button variant="secondary">
-        {" "}
-        <Link to="/archive">Archive</Link>
-      </Button>
-      <Button variant="secondary">
-        <Link to="/forum">Forum</Link>
-      </Button>
-      <Button variant="secondary">
-        {" "}
-        <Link to="/games">Games</Link>
-      </Button>
-      <Button variant="secondary">
-        <Link to="/lists">Lists</Link>
-      </Button>
-      <Button variant="secondary">
-        {" "}
-        <Link to="/tools">Tools</Link>
-      </Button>
-    </ButtonGroup>
-
-
+    <Link to="/">Home</Link>
+    <Link to="/archive">Archive</Link>
+    <Link to="/forum">Forum</Link>
+    <Link to="/games">Games</Link>
+    <Link to="/lists">Lists</Link>
+    <Link to="/tools">Tools</Link>
     <Switch>
+      <Route path="/" exact component={Homepage} />
       <Route path="/archive" exact component={Archive} />
       <Route path="/forum" exact component={Forum} />
       <Route path="/games" exact component={Games} />
