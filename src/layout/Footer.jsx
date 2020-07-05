@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <footer>
-    <h1>Footer</h1>
+    <p>&copy; by js-samuraji</p>
   </footer>
 );
 
