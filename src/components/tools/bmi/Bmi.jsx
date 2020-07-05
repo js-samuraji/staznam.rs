@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { } from "react";
 
 export default function Bmi() {
-  const [bmi, setBmi] = useState();
+  // const [bmi, setBmi] = useState();
   // console.log(bmi, 'path')
   // setBmi('11111');
   return (
@@ -31,7 +31,7 @@ export default function Bmi() {
           <button>Sacuvati</button>
         </form>
         <label>Vas bmi je:</label>
-        <p>{bmi}</p>
+        {/* <p>{bmi}</p> */}
       </div>
     </div>
   );

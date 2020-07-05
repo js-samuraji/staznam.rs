@@ -37,7 +37,7 @@ const Main = () => (
       <Route path="/forum" exact component={Forum} />
       <Route path="/games" exact component={Games} />
       <Route path="/lists" exact component={Lists} />
-      <Route path="/tools" exact component={Tools} />
+      <Route path="/tools" component={Tools} />
     </Switch>
   </main>
 );

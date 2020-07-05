@@ -27,13 +27,14 @@ export default function Tools() {
 
   return (
     <div>
+      {
+        arr.map(tool => <OneTool tool={tool} key={tool.path} />)
+      }
       <Switch>
-        <Route path="/tools/bmi" component={Bmi} />
+        <Route path="/tools/bmi" exact component={Bmi} />
       </Switch>
       <div>
-        {
-          arr.map(tool => <OneTool tool={tool} key={tool.path} />)
-        }
+
       </div>
     </div>
   )
