@@ -1,41 +1,27 @@
 import React from "react";
-import OneTool from "./OneTool";
-import { Switch, Route } from "react-router-dom";
+// import OneTool from "./OneTool";
+import { Switch, Route, Link } from "react-router-dom";
 import Bmi from "./bmi/Bmi";
+import Budget from "./budget/Budget";
 
 
 
 export default function Tools() {
-  //TODO SETUP ARR IN DB
-  const arr = [
-    {
-      title: "BMI Kalkulator",
-      text: "lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-      path: "/tools/bmi"
-    }, {
-      title: "Unos Kalorija",
-      text: "lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-      path: "/tools/calories"
-    }, {
-      title: "Budzet",
-      text: "lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum",
-      path: "tools/budget"
-    },
-  ]
-
 
 
   return (
     <div>
-      {
-        arr.map(tool => <OneTool tool={tool} key={tool.path} />)
-      }
-      <Switch>
-        <Route path="/tools/bmi" exact component={Bmi} />
-      </Switch>
       <div>
+        <Link to="/tools/bmi">BMI</Link>
+        {/* <Link to="/tools/calories"></Link> */}
+        <Link to="/tools/budget">Budzet</Link>
 
       </div>
+      <Switch>
+        <Route path="/tools/bmi" exact component={Bmi} />
+        <Route path="/tools/budget" exact component={Budget} />
+      </Switch>
+
     </div>
   )
 }
