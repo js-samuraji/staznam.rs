@@ -17,7 +17,7 @@ const Header = () => (
             <Col xs={6} md={4}>
               <Image
                 src="/staznam.rs/img/logo/logo.png"
-                clasName="headline"
+                className="headline"
                 roundedCircle
               />
             </Col>

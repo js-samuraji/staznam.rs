@@ -9,8 +9,6 @@ export default function Bmi() {
   const [mass, setMass] = useState();
 
   const calculateBmi = () => {
-
-    console.log('age', age, 'gender', gender, 'height', height, mass);
     let tmp = mass / (height * height) * 10000;
     setBmi((Math.round(tmp * 100) / 100).toFixed(2));
   }
@@ -41,7 +39,7 @@ export default function Bmi() {
         <p>{bmi}</p>
       </div>
       <div>
-        <BmiTable />
+        <BmiTable gender={gender} age={age} />
       </div>
     </div>
   );
