@@ -3,12 +3,12 @@ import React from 'react'
 export default function BmiTable(props) {
     const { age } = props;
 
-    let row1 = age > 18 && age <= 24 ? 'red' : 'black';
-    let row2 = age > 24 && age <= 34 ? 'red' : 'black';
-    let row3 = age > 35 && age <= 44 ? 'red' : 'black';
-    let row4 = age > 43 && age <= 54 ? 'red' : 'black';
-    let row5 = age > 53 && age <= 64 ? 'red' : 'black';
-    let row6 = age > 65 ? 'red' : 'black';
+    let row1 = age >= 18 && age <= 24 ? 'red' : 'black';
+    let row2 = age >= 25 && age <= 34 ? 'red' : 'black';
+    let row3 = age >= 35 && age <= 44 ? 'red' : 'black';
+    let row4 = age >= 45 && age <= 54 ? 'red' : 'black';
+    let row5 = age >= 55 && age <= 64 ? 'red' : 'black';
+    let row6 = age >= 65 ? 'red' : 'black';
 
     console.log(row1)
 
@@ -69,7 +69,7 @@ export default function BmiTable(props) {
                         </tr>
                         <tr style={{ color: row6 }}>
                             <td>65+</td>
-                            <td>manje 24</td>
+                            <td>manje od 24</td>
                             <td>24-29</td>
                             <td>29-34</td>
                             <td>34-44</td>

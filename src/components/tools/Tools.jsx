@@ -1,8 +1,6 @@
 import React from "react";
 // import OneTool from "./OneTool";
-import { Switch, Route, Link } from "react-router-dom";
-import Bmi from "./bmi/Bmi";
-import Budget from "./budget/Budget";
+import { Link } from "react-router-dom";
 
 
 
@@ -23,11 +21,6 @@ export default function Tools() {
            nulla magnam cumque harum consectetur autem voluptates numquam esse eos.</p>
         <Link to="/tools/budget">Idi na Budzet</Link>
       </div>
-      <Switch>
-        <Route exact path="/tools/bmi" component={Bmi} />
-        <Route path="/tools/budget" component={Budget} />
-      </Switch>
-
     </div>
   )
 }
