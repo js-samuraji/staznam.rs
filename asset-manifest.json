@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/staznam.rs/static/css/main.d175561c.chunk.css",
-    "main.js": "/staznam.rs/static/js/main.528d26b6.chunk.js",
-    "main.js.map": "/staznam.rs/static/js/main.528d26b6.chunk.js.map",
+    "main.css": "/staznam.rs/static/css/main.0a85c88a.chunk.css",
+    "main.js": "/staznam.rs/static/js/main.b5ebdf28.chunk.js",
+    "main.js.map": "/staznam.rs/static/js/main.b5ebdf28.chunk.js.map",
     "runtime-main.js": "/staznam.rs/static/js/runtime-main.91c299e4.js",
     "runtime-main.js.map": "/staznam.rs/static/js/runtime-main.91c299e4.js.map",
-    "static/js/2.a663c65c.chunk.js": "/staznam.rs/static/js/2.a663c65c.chunk.js",
-    "static/js/2.a663c65c.chunk.js.map": "/staznam.rs/static/js/2.a663c65c.chunk.js.map",
+    "static/js/2.cb8371b8.chunk.js": "/staznam.rs/static/js/2.cb8371b8.chunk.js",
+    "static/js/2.cb8371b8.chunk.js.map": "/staznam.rs/static/js/2.cb8371b8.chunk.js.map",
     "index.html": "/staznam.rs/index.html",
-    "precache-manifest.22a2761787ebfc4932e31069e15975e4.js": "/staznam.rs/precache-manifest.22a2761787ebfc4932e31069e15975e4.js",
+    "precache-manifest.713079ff3c2013e6e8c0d9e1b2c3d5cd.js": "/staznam.rs/precache-manifest.713079ff3c2013e6e8c0d9e1b2c3d5cd.js",
     "service-worker.js": "/staznam.rs/service-worker.js",
-    "static/css/main.d175561c.chunk.css.map": "/staznam.rs/static/css/main.d175561c.chunk.css.map",
-    "static/js/2.a663c65c.chunk.js.LICENSE.txt": "/staznam.rs/static/js/2.a663c65c.chunk.js.LICENSE.txt"
+    "static/css/main.0a85c88a.chunk.css.map": "/staznam.rs/static/css/main.0a85c88a.chunk.css.map",
+    "static/js/2.cb8371b8.chunk.js.LICENSE.txt": "/staznam.rs/static/js/2.cb8371b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.91c299e4.js",
-    "static/js/2.a663c65c.chunk.js",
-    "static/css/main.d175561c.chunk.css",
-    "static/js/main.528d26b6.chunk.js"
+    "static/js/2.cb8371b8.chunk.js",
+    "static/css/main.0a85c88a.chunk.css",
+    "static/js/main.b5ebdf28.chunk.js"
   ]
 }
