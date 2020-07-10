@@ -7,6 +7,10 @@ import Lists from "../components/lists/Lists";
 import Tools from "../components/tools/Tools";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Button from "react-bootstrap/Button";
+import PlaylistForum from "../components/forum/forums/PlaylistForum";
+import GamesForum from "../components/forum/forums/GamesForum";
+import ToolsForum from "../components/forum/forums/ToolsForum";
+import ArchieveForum from "../components/forum/forums/ArchieveForum";
 
 const Main = () => (
   <main>
@@ -31,13 +35,16 @@ const Main = () => (
       </Button>
     </ButtonGroup>
 
-
     <Switch>
       <Route path="/archive" exact component={Archive} />
       <Route path="/forum" exact component={Forum} />
       <Route path="/games" exact component={Games} />
       <Route path="/lists" exact component={Lists} />
       <Route path="/tools" exact component={Tools} />
+      <Route path="/forum/playlistforum" exact component={PlaylistForum} />
+      <Route path="/forum/gamesforum" exact component={GamesForum} />
+      <Route path="/forum/toolsforum" exact component={ToolsForum} />
+      <Route path="/forum/archiveforum" exact component={ArchieveForum} />
     </Switch>
   </main>
 );
