@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function BmiTable(props) {
-    const { age, gender } = props;
+    const { age } = props;
 
     let row1 = age >= 18 && age <= 24 ? '#d1ecf1' : 'white';
     let row2 = age >= 25 && age <= 34 ? '#d1ecf1' : 'white';
