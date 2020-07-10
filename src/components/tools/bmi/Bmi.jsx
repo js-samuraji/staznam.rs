@@ -19,11 +19,12 @@ export default function Bmi() {
       <h2>BMI Kalkulator</h2>
       <div>
         <form onSubmit={e => e.preventDefault()}>
-          <label>Starost (godine)</label>
+          <label>Starost <br /> (godine)</label>
           <input type="number" onChange={e => setAge(e.target.value)} />
+          <br />
           <label>Pol:</label>
-          <button onClick={e => setGender('muski')}>muski</button>
-          <button onClick={e => setGender('zenski')}>zenski</button>
+          <button className='btn btn-primary' onClick={e => setGender('male')} >muski</button>
+          <button className='btn btn-primary' onClick={e => setGender('female')}>zenski</button>
           <div>
             <label>Visina (cm)</label>
             <input type="number" onInput={e => setHeight(e.target.value)} />
@@ -32,15 +33,15 @@ export default function Bmi() {
             <label>Tezina (kg)</label>
             <input type="number" onInput={e => setMass(e.target.value)} />
           </div>
-          <button onClick={calculateBmi}>Izracunati</button>
-          <button>Sacuvati</button>
+          <button className="btn btn-outline-primary" onClick={calculateBmi}>Izracunati</button>
+          <button className="btn btn-outline-success">Sacuvati</button>
         </form>
         <label>Vas bmi je:</label>
-        <p>{bmi}</p>
+        {bmi && <p class="alert alert-info">{bmi}</p>}
       </div>
       <div>
         <BmiTable gender={gender} age={age} />
       </div>
-    </div>
+    </div >
   );
 }

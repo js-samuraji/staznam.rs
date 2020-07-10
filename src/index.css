@@ -101,5 +101,14 @@ img {
 
 /* //////// TOOLS CSS////// */
 .toolsList {
-  color: red;
+  background-color: #d1ecf1;
+}
+
+button {
+  margin: 5px;
+}
+
+input {
+  margin: 5px;
+  width: 200px;
 }
