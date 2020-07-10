@@ -13,16 +13,16 @@ const Header = () => (
       <div className='content'>
 
         <Container>
-          <Row>
-            <Col xs={6} md={4}>
+          <Row >
+            <Col xs={6} md={{ span: 1, offset: 1 }}>
               <Image
-                src="/staznam.rs/img/logo/logo.png"
-                className="headline"
+                src="/staznam.rs/img/logo/vectorpaint.png"
+                clasName="headline"
                 roundedCircle
               />
             </Col>
 
-            <Col xs={6} md={4}>
+            <Col xs={6} md={{ span: 1, offset: 1 }} >
               <h1 className="headline">STAZNAM.RS</h1>
             </Col>
           </Row>
