@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/staznam.rs/static/css/main.cdf2f4e3.chunk.css",
-    "main.js": "/staznam.rs/static/js/main.1be07ac7.chunk.js",
-    "main.js.map": "/staznam.rs/static/js/main.1be07ac7.chunk.js.map",
+    "main.js": "/staznam.rs/static/js/main.1cd417bc.chunk.js",
+    "main.js.map": "/staznam.rs/static/js/main.1cd417bc.chunk.js.map",
     "runtime-main.js": "/staznam.rs/static/js/runtime-main.91c299e4.js",
     "runtime-main.js.map": "/staznam.rs/static/js/runtime-main.91c299e4.js.map",
     "static/js/2.f4f27dce.chunk.js": "/staznam.rs/static/js/2.f4f27dce.chunk.js",
     "static/js/2.f4f27dce.chunk.js.map": "/staznam.rs/static/js/2.f4f27dce.chunk.js.map",
     "index.html": "/staznam.rs/index.html",
-    "precache-manifest.bee584265b5e4c9d395c690879f4fd86.js": "/staznam.rs/precache-manifest.bee584265b5e4c9d395c690879f4fd86.js",
+    "precache-manifest.3e74fcf64cb4a6090b0d68383a137309.js": "/staznam.rs/precache-manifest.3e74fcf64cb4a6090b0d68383a137309.js",
     "service-worker.js": "/staznam.rs/service-worker.js",
     "static/css/main.cdf2f4e3.chunk.css.map": "/staznam.rs/static/css/main.cdf2f4e3.chunk.css.map",
     "static/js/2.f4f27dce.chunk.js.LICENSE.txt": "/staznam.rs/static/js/2.f4f27dce.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.91c299e4.js",
     "static/js/2.f4f27dce.chunk.js",
     "static/css/main.cdf2f4e3.chunk.css",
-    "static/js/main.1be07ac7.chunk.js"
+    "static/js/main.1cd417bc.chunk.js"
   ]
 }
