@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd114f1c593649c126319084cb7d19ee",
+    "revision": "78cdab744fb6903dcecc372d4671078c",
     "url": "/staznam.rs/index.html"
   },
   {
-    "revision": "dc0f75de1e7688471563",
-    "url": "/staznam.rs/static/css/main.7b256138.chunk.css"
+    "revision": "f94af676679a42f307c2",
+    "url": "/staznam.rs/static/css/main.5117f929.chunk.css"
   },
   {
     "revision": "9c0750ae254e44f49cd3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/staznam.rs/static/js/2.e02c4fd6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc0f75de1e7688471563",
-    "url": "/staznam.rs/static/js/main.b8e709f5.chunk.js"
+    "revision": "f94af676679a42f307c2",
+    "url": "/staznam.rs/static/js/main.43749d24.chunk.js"
   },
   {
     "revision": "a3f5ce950ef6892c8030",
