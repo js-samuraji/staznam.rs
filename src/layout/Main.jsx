@@ -10,25 +10,25 @@ import Button from "react-bootstrap/Button";
 
 const Main = () => (
   <main>
-    <ButtonGroup className="button-group" aria-label="Basic example">
-      <Button variant="secondary">
-        {" "}
-        <Link to="/archive">Archive</Link>
-      </Button>
-      <Button variant="secondary">
-        <Link to="/forum">Forum</Link>
-      </Button>
-      <Button variant="secondary">
-        {" "}
-        <Link to="/games">Games</Link>
-      </Button>
-      <Button variant="secondary">
-        <Link to="/lists">Lists</Link>
-      </Button>
-      <Button variant="secondary">
-        {" "}
-        <Link to="/tools">Tools</Link>
-      </Button>
+    <ButtonGroup className="button-group main-buttons" aria-label="Basic example">
+
+      <Link to="/archive">
+        <Button className="btn" variant="secondary"> Archive </Button>
+      </Link>
+      <Link to="/forum">
+        <Button className="btn" variant="secondary">Forum</Button>
+      </Link>
+
+      <Link to="/games">
+        <Button className="btn" variant="secondary">Games</Button>
+      </Link>
+      <Link to="/lists">
+        <Button className="btn" variant="secondary">List </Button>
+      </Link>
+
+      <Link to="/tools">
+        <Button className="btn" variant="secondary">Tools </Button>
+      </Link>
     </ButtonGroup>
 
 
