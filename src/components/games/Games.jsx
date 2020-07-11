@@ -1,11 +1,13 @@
 import React from "react";
-import Xo from "./xo/Xo";
+import GamesList from "./gamesList/GamesList";
+import { Switch, Route } from "react-router-dom";
+import TicTacToe from "./ticTacToe/TicTacToe";
 
 const Games = () => (
-  <div>
-    <h1>Games</h1>
-    <Xo />
-  </div>
+  <Switch>
+    <Route path="/games/" exact component={GamesList} />
+    <Route path="/games/tic-tac-toe" exact component={TicTacToe} />
+  </Switch>
 );
 
 export default Games;

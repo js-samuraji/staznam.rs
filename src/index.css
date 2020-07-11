@@ -119,3 +119,13 @@ input {
   justify-content: space-between;
   border: solid black;
 }
+
+.main-buttons {
+  background-color: grey;
+}
+
+.btn {
+  color: var(--red);
+  width: 200px;
+  border: 5px black;
+}
