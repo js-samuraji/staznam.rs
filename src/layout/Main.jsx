@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 
 const Main = () => (
   <main>
-    <ButtonGroup aria-label="Basic example">
+    <ButtonGroup className="button-group" aria-label="Basic example">
       <Button variant="secondary">
         {" "}
         <Link to="/archive">Archive</Link>
