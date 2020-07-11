@@ -10,7 +10,7 @@ export default function BmiTable(props) {
     let row5 = age >= 55 && age <= 64 ? '#d1ecf1' : 'white';
     let row6 = age >= 65 ? '#d1ecf1' : 'white';
 
-    console.log(row1)
+    // console.log(row1)
 
     return (
         <div>
