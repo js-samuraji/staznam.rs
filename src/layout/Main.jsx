@@ -12,7 +12,7 @@ import Budget from "../components/tools/budget/Budget";
 
 const Main = () => (
   <main>
-    <ButtonGroup aria-label="Basic example">
+    <ButtonGroup className="button-group" aria-label="Basic example">
       <Button variant="secondary">
         {" "}
         <Link to="/archive">Archive</Link>

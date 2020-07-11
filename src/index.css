@@ -86,6 +86,7 @@ h2 {
 a {
   color: var(--red);
   font-family: var(--headlines);
+
 }
 
 a :hover {
@@ -96,7 +97,6 @@ a :hover {
 img {
   width: 150px;
   height: 140px;
-
 
 }
 
@@ -112,4 +112,10 @@ button {
 input {
   margin: 5px;
   width: 200px;
+}
+
+.button-group {
+  width: 80%;
+  justify-content: space-between;
+  border: solid black;
 }
