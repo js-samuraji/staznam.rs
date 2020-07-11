@@ -19,7 +19,7 @@ export default function BmiTable(props) {
                     <tbody>
                         <tr>
                             <th scope='col'>Starost</th>
-                            <th scope='col'>Smanjena telesna tezina</th>
+                            <th scope='col' >Smanjena telesna tezina</th>
                             <th scope='col'>Normalna tezina</th>
                             <th scope='col'>Gojaznost</th>
                             <th scope='col'>Gojaznost (adipositas)</th>
