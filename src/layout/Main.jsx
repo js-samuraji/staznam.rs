@@ -42,7 +42,7 @@ const Main = () => (
     <Switch>
       <Route path="/archive" exact component={Archive} />
       <Route path="/forum" exact component={Forum} />
-      <Route path="/games" exact component={Games} />
+      <Route path="/games" component={Games} />
       <Route path="/lists" exact component={Lists} />
       <Route path="/archive-text" component={Text} />
       <Route path="/tools" exact component={Tools} />
