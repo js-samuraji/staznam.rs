@@ -7,6 +7,7 @@ import Lists from "../components/lists/Lists";
 import Tools from "../components/tools/Tools";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Button from "react-bootstrap/Button";
+import Text from "../components/archive/text";
 
 const Main = () => (
   <main>
@@ -38,6 +39,8 @@ const Main = () => (
       <Route path="/games" component={Games} />
       <Route path="/lists" component={Lists} />
       <Route path="/tools" component={Tools} />
+      <Route path="/archive-text" component={Text} />
+
     </Switch>
   </main>
 );

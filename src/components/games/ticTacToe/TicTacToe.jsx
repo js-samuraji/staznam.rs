@@ -26,7 +26,7 @@ const TicTacToe = () => {
       <h1>X-O</h1>
       <Controls size={state.size} dispatch={dispatch} />
       <Board state={state} dispatch={dispatch} />
-      <p>{state.message}</p>
+      <p className='tic-tac-toe-message'>{state.message}</p>
     </div>
   );
 };
