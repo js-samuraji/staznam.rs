@@ -1,0 +1,7 @@
+.like {
+    opacity: 0.5;
+}
+
+.like:hover {
+    opacity: 1;
+}
