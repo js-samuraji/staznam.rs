@@ -8,7 +8,8 @@ const Field = ({ id, value, setValue }) => (
       height: "100px",
       lineHeight: "100px",
       display: "inline-block",
-      border: "1px solid black",
+      border: "3px solid #990000",
+      fontFamily: 'Permanent Marker',
       fontSize: "50px",
       userSelect: "none"
     }}

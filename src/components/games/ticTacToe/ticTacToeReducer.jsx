@@ -100,7 +100,7 @@ const playerMove = (state, row, col) => {
   if (state.values[row][col] || state.gameOver) {
     let field = document.getElementById(`xo${row}${col}`);
     field.style.transition = 'background-color 0.25s ease-out';
-    field.style.backgroundColor = 'red';
+    field.style.backgroundColor = '#990000';
     setTimeout(() => field.style.backgroundColor = 'transparent', 250);
     return state;
   };

@@ -2,6 +2,7 @@ import React from "react";
 import GamesList from "./gamesList/GamesList";
 import { Switch, Route } from "react-router-dom";
 import TicTacToe from "./ticTacToe/TicTacToe";
+import './games.css';
 
 const Games = () => (
   <Switch>

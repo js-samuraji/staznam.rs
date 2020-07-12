@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const GamesList = () => (
   <div>
-    <h1>Games</h1>
-    <Link to="/games/tic-tac-toe">X-O</Link>
+    <h2>Games</h2>
+    <Link to="/games/tic-tac-toe"><h3>X-O</h3></Link>
   </div>
 );
 
