@@ -131,3 +131,23 @@ input {
   width: 200px;
   border: 5px black;
 }
+
+/*
+@media(max-width: 768px) {}
+
+
+@media(min-width: 600px) {
+  body {}
+}
+
+@media(min-width: 768px) {
+  body {}
+}
+
+@media(min-width: 992px) {
+  body {}
+}
+
+@media(min-width: 1200px) {
+  body {}
+}*/

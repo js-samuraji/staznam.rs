@@ -34,7 +34,7 @@ const TicTacToe = () => {
       <Container>
         <Row>
           <Col> <img className='samuraj' src="/staznam.rs/img/samuraj.png" alt="Samuraj" /></Col>
-          <Col>  <Board state={state} dispatch={dispatch} /></Col>
+          <Col md="auto">  <Board className='board' state={state} dispatch={dispatch} /></Col>
           <Col> <p className='tic-tac-toe-message'>{state.message}</p></Col>
         </Row>
       </Container>

@@ -18,6 +18,8 @@
 }
 
 .tic-tac-toe-message {
+    margin: 50px;
+    text-align: right;
     font-size: 25px;
     font-family: var(--headlines);
     color: var(--red);
@@ -26,4 +28,8 @@
 
 .samuraj {
     margin: 50px;
+}
+
+.board {
+    margin: auto;
 }
