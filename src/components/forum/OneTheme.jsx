@@ -5,22 +5,16 @@ import { uuid } from "uuidv4";
 const OneTheme = () => {
   const [text, setText] = useState("");
   const [message, setMessage] = useState("");
+  const [tekstovi, setTekstovi] = useState([]);
   let poruka = "Molim vas unesite tekst poruke.";
-
-  let tekstovi = [
-    "Time machine, I haven't invented any time machine.",
-    "Right. Listen, Doc. George, help me, please.",
-  ];
 
   function handleSubmit(e) {
     e.preventDefault();
     if (text === "") {
       setMessage(poruka);
     } else {
-      tekstovi.push(text);
-      let x = document.getElementById("texts");
-      x.innerHTML += text;
-      // x.innerHTML += <Likes></Likes>;
+      let y = tekstovi.concat(text);
+      setTekstovi(y);
       setText("");
       setMessage("");
       document.getElementById("area").value = "";
@@ -33,9 +27,9 @@ const OneTheme = () => {
       <div id="texts">
         <div>
           {tekstovi.map((tekst) => (
-            <p key={uuid()}>
+            <li key={uuid()}>
               {tekst} <Likes></Likes>
-            </p>
+            </li>
           ))}
         </div>
       </div>
