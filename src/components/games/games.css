@@ -21,4 +21,9 @@
     font-size: 25px;
     font-family: var(--headlines);
     color: var(--red);
+    padding: 70px 0;
+}
+
+.samuraj {
+    margin: 50px;
 }
