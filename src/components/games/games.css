@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+:root {
+    --headlines: 'Permanent Marker', cursive;
+    --primary-color: #3a4052;
+    --red: #990000;
+}
+
+
+.btn-game {
+    padding: 10px;
+    margin: 20px;
+    color: var(--red);
+    background-color: grey;
+    border: solid black;
+    font-family: var(--headlines);
+}
+
+.tic-tac-toe-message {
+    margin: 50px;
+    text-align: right;
+    font-size: 25px;
+    font-family: var(--headlines);
+    color: var(--red);
+    padding: 70px 0;
+}
+
+.samuraj {
+    margin: 50px;
+}
+
+.board {
+    margin: auto;
+}
