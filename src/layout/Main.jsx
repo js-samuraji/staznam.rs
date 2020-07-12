@@ -11,6 +11,7 @@ import PlaylistForum from "../components/forum/forums/PlaylistForum";
 import GamesForum from "../components/forum/forums/GamesForum";
 import ToolsForum from "../components/forum/forums/ToolsForum";
 import ArchieveForum from "../components/forum/forums/ArchieveForum";
+import OneTheme from "../components/forum/OneTheme";
 
 const Main = () => (
   <main>
@@ -45,6 +46,10 @@ const Main = () => (
       <Route path="/forum/gamesforum" exact component={GamesForum} />
       <Route path="/forum/toolsforum" exact component={ToolsForum} />
       <Route path="/forum/archiveforum" exact component={ArchieveForum} />
+      <Route path="/forum/archiveforum/themes" exact component={OneTheme} />
+      <Route path="/forum/gamesforum/themes" exact component={OneTheme} />
+      <Route path="/forum/playlistforum/themes" exact component={OneTheme} />
+      <Route path="/forum/toolsforum/themes" exact component={OneTheme} />
     </Switch>
   </main>
 );

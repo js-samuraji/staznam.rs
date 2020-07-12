@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Theme = () => {
-    return(
-        <p>Da li radi</p>
-    )
+  return (
+    <div>
+      <h2>Prva tema</h2>
+    </div>
+  );
 };
 
 export default Theme;

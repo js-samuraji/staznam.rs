@@ -2,7 +2,7 @@ import React from "react";
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from "react-router-dom";
 
-const Category = ({ title }) => {
+const Category = () => {
   let cat = [
       { id: uuidv4(), title: 'Plejliste', path: '/forum/playlistforum'},
       { id: uuidv4(), title: 'Alati', path: '/forum/toolsforum' },
@@ -11,8 +11,8 @@ const Category = ({ title }) => {
   ]
 
   return(
-        <div>
-            {cat.map(one => <Link to={one.path}>{one.title}</Link>)}
+        <div style={{fontSize: "1.5rem"}}>
+            {cat.map(one => <Link to={one.path} style={{display: "block"}} key={one.id}>{one.title}</Link>)}
         </div>
   );
 };
