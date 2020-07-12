@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/staznam.rs/precache-manifest.c86b85c6a10d8bfc21a427cf2061343b.js"
+  "/staznam.rs/precache-manifest.8e2ded18e06c069b9909e37bf9a9dba9.js"
 );
 
 self.addEventListener('message', (event) => {
