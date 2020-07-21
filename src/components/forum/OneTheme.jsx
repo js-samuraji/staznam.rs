@@ -59,6 +59,7 @@ const OneTheme = () => {
           type="reset"
           value="Obriši tekst"
           style={{ width: "200px", margin: "0 auto" }}
+          onClick={() => setText("")}
         />
         {message}
       </form>
