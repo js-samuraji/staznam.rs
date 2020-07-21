@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Likes from "./forums/Likes";
+import Likes from "./Likes";
 import { uuid } from "uuidv4";
 
 const OneTheme = () => {
