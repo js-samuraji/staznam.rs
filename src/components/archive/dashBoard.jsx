@@ -34,6 +34,7 @@ export default function DashBoard() {
         <Form.Control size="sm" type="text" placeholder="Small text" />
         <Form.Control size="sm" type="text" placeholder="Small text" />
         <button className="dashboard-btn">Save</button>
+        <button className="dashboard-btn">Post</button>
       </Form>
     </div>
   );

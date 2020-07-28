@@ -8,21 +8,48 @@ export default function TextList() {
   return (
     <div>
       <Container>
+        <h4 className="headline">Poslednja četiri teksta</h4>
         <Row>
           <Col>
-            {" "}
             <ShortText />
           </Col>
           <Col>
-            {" "}
             <ShortText />
           </Col>
           <Col>
-            {" "}
             <ShortText />
           </Col>
           <Col>
-            {" "}
+            <ShortText />
+          </Col>
+        </Row>
+        <h4 className="headline">Najčitaniji tekstovi</h4>
+        <Row>
+          <Col>
+            <ShortText />
+          </Col>
+          <Col>
+            <ShortText />
+          </Col>
+          <Col>
+            <ShortText />
+          </Col>
+          <Col>
+            <ShortText />
+          </Col>
+        </Row>
+        <h4 className="headline">Najčitaniji u svojoj kategoriji</h4>
+        <Row>
+          <Col>
+            <ShortText />
+          </Col>
+          <Col>
+            <ShortText />
+          </Col>
+          <Col>
+            <ShortText />
+          </Col>
+          <Col>
             <ShortText />
           </Col>
         </Row>
