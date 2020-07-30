@@ -1,34 +1,51 @@
 :root {
-    --primary-color: #3a4052;
-    --red: #990000;
+  --primary-color: #3a4052;
+  --red: #990000;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 .paragraf {
-    margin-left: 100px;
-    margin-right: 200px;
-    width: 80%;
-    text-align: center;
-
+  margin-left: 100px;
+  margin-right: 200px;
+  width: 80%;
+  text-align: center;
 }
 
 .text-footer {
-    text-align: left;
-    margin-left: 200px;
+  text-align: left;
+  margin-left: 200px;
 }
 
 .short-text {
-    margin: 5%;
-    padding: 5px;
-    width: 35%;
-    height: 20%;
-    border: solid var(--primary-color);
-    border-radius: 20%;
+  margin: 5%;
+  padding: 5px;
 
+  /* border: solid var(--primary-color);
+  border-radius: 20%;*/
+}
+/*////////////DASHBOARD///////////////////*/
+
+.dash-board {
+  width: 70%;
+  margin: 13%;
+  border: solid var(--primary-color);
+  padding: 5%;
+}
+
+.dashboard-btn {
+  padding: 10px;
+  margin: 10px;
+  border: solid black;
+  background-color: gray;
+  color: var(--red);
+  font-size: 20px;
+  font-weight: bold;
+}
+.dashboard-btn:hover {
+  background-color: var(--primary-color);
 }

@@ -15,27 +15,41 @@ import OneTheme from "../components/forum/OneTheme";
 import Text from "../components/archive/text";
 import Bmi from "../components/tools/bmi/Bmi";
 import Budget from "../components/tools/budget/Budget";
+import DashBoard from "../components/archive/dashBoard";
 
 const Main = () => (
   <main>
-    <ButtonGroup className="button-group main-buttons" aria-label="Basic example">
-
+    <ButtonGroup
+      className="button-group main-buttons"
+      aria-label="Basic example"
+    >
       <Link to="/archive">
-        <Button className="btn" variant="secondary"> Archive </Button>
+        <Button className="btn" variant="secondary">
+          {" "}
+          Archive{" "}
+        </Button>
       </Link>
       <Link to="/forum">
-        <Button className="btn" variant="secondary">Forum</Button>
+        <Button className="btn" variant="secondary">
+          Forum
+        </Button>
       </Link>
 
       <Link to="/games">
-        <Button className="btn" variant="secondary">Games</Button>
+        <Button className="btn" variant="secondary">
+          Games
+        </Button>
       </Link>
       <Link to="/lists">
-        <Button className="btn" variant="secondary">List </Button>
+        <Button className="btn" variant="secondary">
+          List{" "}
+        </Button>
       </Link>
 
       <Link to="/tools">
-        <Button className="btn" variant="secondary">Tools </Button>
+        <Button className="btn" variant="secondary">
+          Tools{" "}
+        </Button>
       </Link>
     </ButtonGroup>
 
@@ -45,6 +59,7 @@ const Main = () => (
       <Route path="/games" component={Games} />
       <Route path="/lists" exact component={Lists} />
       <Route path="/archive-text" component={Text} />
+      <Route path="/archive-dashboard" component={DashBoard} />
       <Route path="/tools" exact component={Tools} />
       <Route path="/forum/playlistforum" exact component={PlaylistForum} />
       <Route path="/forum/gamesforum" exact component={GamesForum} />
