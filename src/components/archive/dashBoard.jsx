@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 export default function DashBoard() {
   return (
     <div className="dash-board">
-      <h2>Tabela za unos tekstova</h2>
+      <h2>Dash Board</h2>
       <Form>
         <Form.Group controlId="exampleForm.ControlInput1">
           <Form.Label>Naslov</Form.Label>
