@@ -16,6 +16,7 @@ import Text from "../components/archive/text";
 import Bmi from "../components/tools/bmi/Bmi";
 import Budget from "../components/tools/budget/Budget";
 import DashBoard from "../components/archive/dashBoard";
+import Homepage from "../components/homepage/Homepage";
 
 const Main = () => (
   <main>
@@ -52,7 +53,7 @@ const Main = () => (
         </Button>
       </Link>
     </ButtonGroup>
-
+    <Homepage />
     <Switch>
       <Route path="/archive" exact component={Archive} />
       <Route path="/forum" exact component={Forum} />

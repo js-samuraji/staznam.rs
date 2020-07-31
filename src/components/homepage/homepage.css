@@ -1,0 +1,23 @@
+.all-lists-of-fetures {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px;
+}
+
+.one-list-of-features {
+  height: 600px;
+  width: 400px;
+  border: solid black 4px;
+  padding: 50px;
+}
+.all-lists-of-texts {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 50px;
+}
+.one-list-of-text {
+  width: 100%;
+  height: 300px;
+  border: solid black 4px;
+  padding: 50px;
+}
