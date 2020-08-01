@@ -3,6 +3,7 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <header>
@@ -20,7 +21,12 @@ const Header = () => (
         <Container>
           <Row>
             <Col xs={6} md={{ span: 1, offset: 1 }}>
-              <Image src="/staznam.rs/img/logo/vectorpaint.png" roundedCircle />
+              <Link to="/">
+                <Image
+                  src="/staznam.rs/img/logo/vectorpaint.png"
+                  roundedCircle
+                />
+              </Link>
             </Col>
 
             <Col xs={6} md={{ span: 1, offset: 1 }}>
@@ -30,7 +36,6 @@ const Header = () => (
         </Container>
       </div>
     </section>
-    <hr />
   </header>
 );
 

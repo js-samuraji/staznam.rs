@@ -10,7 +10,7 @@ export default function Archive() {
       <h2>Archive</h2>
       <Link to="/archive-dashboard">
         <Button className="btn" variant="secondary">
-          Tabla za unos
+          Dash board
         </Button>
       </Link>
       <TextList />
