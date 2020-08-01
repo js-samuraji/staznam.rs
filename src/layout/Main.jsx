@@ -53,8 +53,8 @@ const Main = () => (
         </Button>
       </Link>
     </ButtonGroup>
-    <Homepage />
     <Switch>
+      <Route path="/" exact component={Homepage} />
       <Route path="/archive" exact component={Archive} />
       <Route path="/forum" exact component={Forum} />
       <Route path="/games" component={Games} />

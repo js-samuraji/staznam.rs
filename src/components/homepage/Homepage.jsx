@@ -3,7 +3,6 @@ import "./homepage.css";
 
 const Homepage = () => (
   <div>
-    <h1>Homepage</h1>
     <h3 className="headline">Lorem ipsum, dolor sit amet </h3>
     <div className="all-lists-of-fetures">
       <p className="one-list-of-features">List of the best tools</p>

@@ -36,7 +36,6 @@ const Header = () => (
         </Container>
       </div>
     </section>
-    <hr />
   </header>
 );
 
